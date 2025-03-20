@@ -1,0 +1,420 @@
+{
+    "category": [
+      {
+        "id": "b98c",
+        "name": "fation"
+      },
+      {
+        "id": "3580",
+        "name": "electronics"
+      },
+      {
+        "id": "54e9",
+        "name": "books"
+      },
+      {
+        "id": "c844",
+        "name": "Sports"
+      },
+      {
+        "id": "b2c7",
+        "name": "Fruits"
+      },
+      {
+        "id": "d614",
+        "name": "Vagitable"
+      }
+    ],
+    "subcategory": [
+      {
+        "id": "0b5a",
+        "category": "b98c",
+        "name": "fation ok",
+        "description": "hello"
+      },
+      {
+        "id": "aa72",
+        "category": "3580",
+        "name": "Television",
+        "description": "ssss"
+      },
+      {
+        "id": "2139",
+        "category": "54e9",
+        "name": "mens",
+        "description": "fdf"
+      },
+      {
+        "id": "dccd",
+        "category": "c844",
+        "name": "Shooes",
+        "description": "dsafdfd"
+      },
+      {
+        "id": "26ee",
+        "category": "b2c7",
+        "name": "banana",
+        "description": "ssss"
+      },
+      {
+        "id": "261d",
+        "category": "d614",
+        "name": "Brocoly",
+        "description": "gggg"
+      }
+    ],
+    "product": [
+      {
+        "id": "d46e",
+        "category": "b98c",
+        "subcategory": "0b5a",
+        "product": "Shirt",
+        "productDesc": "ssss",
+        "price": "100"
+      },
+      {
+        "id": "b9f1",
+        "category": "54e9",
+        "subcategory": "2139",
+        "product": "History",
+        "productDesc": "q",
+        "price": "10000"
+      },
+      {
+        "id": "fe54",
+        "category": "3580",
+        "subcategory": "aa72",
+        "product": "Samsung",
+        "productDesc": "Smart Television",
+        "price": "20000"
+      },
+      {
+        "id": "ed08",
+        "category": "c844",
+        "subcategory": "dccd",
+        "product": "sega",
+        "productDesc": "Indiabrand",
+        "price": "800"
+      },
+      {
+        "id": "3ebe",
+        "category": "b2c7",
+        "subcategory": "26ee",
+        "product": "banana",
+        "productDesc": "fff",
+        "price": "50"
+      },
+      {
+        "id": "49a4",
+        "category": "d614",
+        "subcategory": "261d",
+        "product": "lkkllk",
+        "productDesc": "iiiiii",
+        "price": "20"
+      },
+      {
+        "id": "585c",
+        "category": "d614",
+        "subcategory": "261d",
+        "product": "tttt",
+        "productDesc": "kkkk",
+        "price": "99"
+      }
+    ],
+    "coupon": [
+      {
+        "id": "26a5",
+        "code": "ABCD",
+        "discount": "10"
+      },
+      {
+        "id": "177b",
+        "code": "WXYZ",
+        "discount": "20"
+      },
+      {
+        "id": "e89d",
+        "code": "MNOP",
+        "discount": "50"
+      },
+      {
+        "id": "81da",
+        "code": "AEIO",
+        "discount": "80"
+      }
+    ],
+    "review": [
+      {
+        "id": "e2c8",
+        "name": "sega",
+        "email": "sports@1234",
+        "review": "hhsdhfsbcbzxndbasjk.dgkdghbsacx,mcnm",
+        "rate": 4,
+        "pid": "ed08",
+        "status": "Active",
+        "uid": ""
+      },
+      {
+        "id": "f887",
+        "name": "electronics",
+        "email": "babababab@123",
+        "review": "sddadqwdascxzc czxc ",
+        "rate": 3,
+        "pid": "3ebe",
+        "status": "Active",
+        "uid": ""
+      },
+      {
+        "id": "9e15",
+        "name": "Television",
+        "email": "rgsr@123",
+        "review": "wsssssssssssssssssssssssssssss",
+        "rate": 2,
+        "pid": "49a4",
+        "status": "Active",
+        "uid": ""
+      },
+      {
+        "id": "1f03",
+        "name": "Vagitable",
+        "email": "ldldldlld@4242",
+        "review": "dvs;sdmfksddvjlk.m,",
+        "rate": 1,
+        "pid": "49a4",
+        "status": "Active",
+        "uid": ""
+      },
+      {
+        "id": "244a",
+        "name": "fation",
+        "email": "rgsr@123saacv",
+        "review": "jkbxcj.zbdhbvcjhxc",
+        "rate": 4,
+        "pid": "d46e",
+        "status": "Active",
+        "uid": ""
+      },
+      {
+        "id": "f083",
+        "name": "sdrs",
+        "email": "vaibhav9723142179@gmail.com",
+        "review": "dffddfdffddffd",
+        "rate": 4,
+        "pid": "d46e",
+        "status": "Active",
+        "uid": ""
+      },
+      {
+        "id": "8a30",
+        "name": "fationookkkkkkkkkk",
+        "email": "vaibhav9723142179@gmail.com",
+        "review": "oooooooooooooooooo",
+        "rate": 4,
+        "pid": "ed08",
+        "status": "Active",
+        "uid": "ddd"
+      }
+    ],
+    "checkout": [
+      {
+        "id": "13d6",
+        "user_id": "vaibhav",
+        "cart": [
+          {
+            "pid": "fe54",
+            "amount": "20000",
+            "qty": 3
+          },
+          {
+            "pid": "b9f1",
+            "amount": "10000",
+            "qty": 5
+          },
+          {
+            "pid": "d46e",
+            "amount": "100",
+            "qty": 10
+          }
+        ],
+        "biiling_details": {
+          "fname": "vaibhav",
+          "Lname": "Gohil",
+          "address": "jhe  q30u8370 ej q2ue08713 0eu iue0u13e",
+          "city": "Surat",
+          "zipCode": "395006",
+          "country": "India",
+          "mobile": "7567058384",
+          "email": "vaibhav9723142179@gmail.com",
+          "payment_method": "Cash On Delivery"
+        },
+        "total_amout": 111000,
+        "discount": 20,
+        "bill_amout": 88800,
+        "createdAt": "2024-10-04T05:43:13.332Z",
+        "updatedAt": "2024-10-04T05:43:13.332Z",
+        "status": "reject"
+      },
+      {
+        "id": "d85a",
+        "user_id": "vaibhav",
+        "cart": [
+          {
+            "pid": "d46e",
+            "amount": "100",
+            "qty": 1
+          },
+          {
+            "pid": "ed08",
+            "amount": "800",
+            "qty": 2
+          },
+          {
+            "pid": "3ebe",
+            "amount": "50",
+            "qty": 3
+          },
+          {
+            "pid": "49a4",
+            "amount": "20",
+            "qty": 4
+          },
+          {
+            "pid": "585c",
+            "amount": "99",
+            "qty": 5
+          }
+        ],
+        "biiling_details": {
+          "fname": "Rahul",
+          "Lname": "Gohil",
+          "address": "ufhu uyef 988qwye bhn sstd8asb iassyduuzc yyyagf",
+          "city": "Surat",
+          "zipCode": "395006",
+          "country": "India",
+          "mobile": "1234567890",
+          "email": "sports@1234",
+          "payment_method": "Cash On Delivery"
+        },
+        "total_amout": 2425,
+        "discount": 10,
+        "bill_amout": 2182.5,
+        "createdAt": "2024-10-14T07:06:48.598Z",
+        "updatedAt": "2024-10-14T07:06:48.598Z",
+        "status": "pending"
+      },
+      {
+        "id": "10b9",
+        "user_id": "vaibhav",
+        "cart": [
+          {
+            "pid": "d46e",
+            "amount": "100",
+            "qty": 1
+          }
+        ],
+        "biiling_details": {
+          "fname": "vaibhav",
+          "Lname": "Gohil",
+          "address": "dfvcvx",
+          "city": "Surat",
+          "zipCode": "395006",
+          "country": "India",
+          "mobile": "7567058384",
+          "email": "vaibhav9723142179@gmil.com",
+          "payment_method": "Cash On Delivery"
+        },
+        "total_amout": 100,
+        "discount": 10,
+        "bill_amout": 90,
+        "createdAt": "2024-12-19T04:33:10.615Z",
+        "updatedAt": "2024-12-19T04:33:10.615Z",
+        "status": "pending"
+      },
+      {
+        "id": "cc65",
+        "user_id": "vaibhav",
+        "cart": [
+          {
+            "pid": "d46e",
+            "amount": "100",
+            "qty": 1
+          }
+        ],
+        "biiling_details": {
+          "fname": "vaibhav",
+          "Lname": "Gohil",
+          "address": "fxfgsdf",
+          "city": "Surat",
+          "zipCode": "395006",
+          "country": "India",
+          "mobile": "7567058384",
+          "email": "vaibhav9723142179@gmil.com",
+          "payment_method": "Cash On Delivery"
+        },
+        "total_amout": 100,
+        "discount": 10,
+        "bill_amout": 90,
+        "createdAt": "2024-12-19T04:34:02.500Z",
+        "updatedAt": "2024-12-19T04:34:02.500Z",
+        "status": "cancel"
+      }
+    ],
+    "auth": [
+      {
+        "id": "c24e",
+        "name": "vaibhav",
+        "email": "vaibhav9723142179@gmail.com",
+        "confPassword": "Vidisha@111",
+        "password": "Vidisha@111"
+      },
+      {
+        "id": "89ef",
+        "name": "okok",
+        "email": "okoko@gmail.com",
+        "password": "Abcd@123",
+        "confPassword": "Abcd@123"
+      },
+      {
+        "id": "3c42",
+        "name": "Rahul Gohil",
+        "email": "rahul@gmail.com",
+        "password": "Rahul@123",
+        "confPassword": "Rahul@123"
+      },
+      {
+        "id": "be5e",
+        "name": "books",
+        "email": "sports@1234",
+        "password": "Wxyz@123",
+        "confPassword": "Wxyz@123"
+      },
+      {
+        "id": "ca8f",
+        "name": "hello",
+        "email": "hello@gmail.com",
+        "password": "Abcd@1234",
+        "confPassword": "Abcd@1234"
+      },
+      {
+        "id": "e444",
+        "name": "vaibhav",
+        "email": "vidisha@gmail.com",
+        "password": "Vidisha@123",
+        "confPassword": "Vidisha@123"
+      },
+      {
+        "id": "84c6",
+        "name": "Rahul Gohil",
+        "email": "rahulR@gmail.com",
+        "password": "Rahulgohil@1",
+        "confPassword": "Rahulgohil@1"
+      },
+      {
+        "id": "fcfd",
+        "name": "fation",
+        "email": "bababababokok@123",
+        "password": "okokok@123OK",
+        "confPassword": "okokok@123OK"
+      }
+    ]
+  }
